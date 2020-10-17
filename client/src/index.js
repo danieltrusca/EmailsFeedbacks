@@ -10,6 +10,10 @@ import rootReducer from "./reducers/index"
 import App from './components/App';
 import * as serviceWorker from './serviceWorker';
 
+//just for testing purpose
+import axios from "axios";
+window.axios=axios;
+
 
 const middleWare = [thunk];
 
